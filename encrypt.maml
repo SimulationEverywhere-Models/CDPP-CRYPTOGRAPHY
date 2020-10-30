@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> encrypt </components>
+  </top>
+  <encrypt>
+    <type> cell </type>
+    <width> 20 </width>
+    <height> 20 </height>
+    <delay> transport </delay>
+    <defaultDelayTime> 100 </defaultDelayTime>
+    <border> nowrapped  </border>
+    <neighbors> encrypt(-1,-1) encrypt(-1,1) encrypt(0,0)  </neighbors>
+    <initialvalue> 0 </initialvalue>
+    <initialrowvalue>  0     01011001110001111010 </initialrowvalue>
+    <initialrowvalue>  1     32222222222222222223 </initialrowvalue>
+    <localtransition> encrypt-rule </localtransition>
+  </encrypt>
+</CDPlusPlus_Builder_Version_1.0.0>

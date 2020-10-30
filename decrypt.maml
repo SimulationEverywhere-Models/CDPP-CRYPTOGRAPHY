@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> decrypt </components>
+  </top>
+  <decrypt>
+    <type> cell </type>
+    <width> 20 </width>
+    <height> 20 </height>
+    <delay> transport </delay>
+    <defaultDelayTime> 100 </defaultDelayTime>
+    <border> nowrapped  </border>
+    <neighbors> decrypt(-1,-1) decrypt(-1,1) </neighbors>
+    <neighbors> decrypt(0,-2) decrypt(0,0) decrypt(0,2) </neighbors>
+    <initialvalue> 0 </initialvalue>
+    <initialrowvalue>  0     01011010100100100000 </initialrowvalue>
+    <initialrowvalue>  1     02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  2     02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  3     02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  4     02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  5     02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  6     02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  7     02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  8     02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  9     02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  10    02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  11    02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  12    02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  13    02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  14    02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  15    02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  16    02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  17    02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  18    02222222222222222220 </initialrowvalue>
+    <initialrowvalue>  19    02222222222222222220 </initialrowvalue>
+    <localtransition> decrypt-rule </localtransition>
+  </decrypt>
+</CDPlusPlus_Builder_Version_1.0.0>
